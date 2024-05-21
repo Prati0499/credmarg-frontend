@@ -1,0 +1,24 @@
+<div class="app">
+<form [formGroup]="vendorForm">
+  <div class="container">
+    <h2 style="color: whitesmoke;"> Add Vendor</h2>
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Email Id" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="UPI" formControlName="upi">
+    </mat-form-field>
+
+    <div>
+      <button mat-raised-button color="accent" (click)="saveForm()" style="margin-right: 2rem;">SAVE</button>
+      <button mat-raised-button color="accent" [routerLink]="['/home']">BACK</button>
+    </div>
+  </div>
+</form>
+
+</div>

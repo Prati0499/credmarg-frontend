@@ -1,0 +1,25 @@
+.app{
+  height: 100%;
+  display: block;
+  align-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: auto;
+    max-width:800px;
+    padding: 2rem;
+    background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 23px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+  
+  .mat-form-field {
+   width: 600px;
+  }
+
+ 

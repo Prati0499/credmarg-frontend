@@ -1,0 +1,24 @@
+.mat-table{
+    width: 70%;
+    margin: auto;
+}
+
+.app{
+    height: 100%;
+    display: block;
+    align-content: center;
+    background: #556270; 
+    background: -webkit-linear-gradient(to top, #FF6B6B, #556270);  
+    background: linear-gradient(to top, #FF6B6B, #556270);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: auto;
+    padding: 2rem;
+    /* box-shadow: 5px 23px 15px -3px rgba(0,0,0,0.1); */
+    border-radius: 1rem;
+    
+}
